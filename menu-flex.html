@@ -48,18 +48,26 @@
            
         </div>
     </div>
+    <div class="container">
+        <button class="btn text-white" style="background-color:chocolate">hola soy un b</button>
+    </div>
 
 
     <script>
     
-    bootbox.confirm({
-        title: "Eliminado Articulo",
-        message: "Estas Seguro Deseas Eliminar Este Elemento",
-        size: "small",
-        className: "bg-dark pt-5",
-        callback: function(result){
-        console.log(result);
-    }
+    bootbox.alert({
+        title: "Eliminando Articulo",
+        message: `<h1 class="text-primary">Deseas Eliminar este Articulo</h1>
+         <p class="text-center display-4">datos</p>
+         <hr>
+         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos porro distinctio repellat, eaque modi labore provident perferendis nobis illo corporis eius reprehenderit sint accusantium possimus sit nulla fuga suscipit cumque enim exercitationem iure nesciunt nostrum! Repudiandae sunt, excepturi ratione, recusandae optio, minus beatae atque cum porro quasi asperiores iure!</p>
+         
+         <img src="1.jpg" alt="" class="rounded-circle" width="150px">
+         
+         `,
+         size: "large",
+         
+         
     })
             </script>
    
